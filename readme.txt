@@ -16,6 +16,10 @@
   standards, and cross compilation of the Windows plug-in is set
   by default.
 
+  From a termial session, type the following code
+      make all cleanobj
+  to get the shared object file of the MidSide plug-in.
+
 ==================================================================
 
   Luca Sartore (drwolf85@gmail.com) - September 2014
