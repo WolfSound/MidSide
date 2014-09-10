@@ -1,4 +1,4 @@
 MidSide
 =======
 
-MidSide is a M-S Delay/Mixer VST plug-in
+MidSide is a MS Delay/Mixer VST plug-in
