@@ -21,13 +21,13 @@ OBJA = audioeffect
 OBJX = audioeffectx
 OBJC = $(OBJM).o $(OBJA).o $(OBJX).o
 $(OBJL).o : $(OBJL).cpp
-$(CC) $(CFLAGS) $(OBJL).cpp
+	$(CC) $(CFLAGS) $(OBJL).cpp
 $(OBJM).o : $(SDK)$(OBJM).cpp
-$(CC) $(CFLAGS) $(SDK)$(OBJM).cpp
+	$(CC) $(CFLAGS) $(SDK)$(OBJM).cpp
 $(OBJX).o : $(SDK)$(OBJX).cpp
-$(CC) $(CFLAGS) $(SDK)$(OBJX).cpp
+	$(CC) $(CFLAGS) $(SDK)$(OBJX).cpp
 $(OBJA).o : $(SDK)$(OBJA).cpp
-$(CC) $(CFLAGS) $(SDK)$(OBJA).cpp
+	$(CC) $(CFLAGS) $(SDK)$(OBJA).cpp
 #----------------------------------------
 # (output)
 #----------------------------------------
@@ -40,13 +40,13 @@ OBJD = $(OBJE:=$(DYN))
 #----------------------------------------
 all: $(OBJE)
 clean:
-rm -f *.o $(OBJD)
+	rm -f *.o $(OBJD)
 cleanobj:
-rm -f *.o
+	rm -f *.o
 #----------------------------------------
 # individual
 #----------------------------------------
 MidSide: $(OBJC) MidSide.o
-$(CC) $(LFLAGS) $(OBJC) MidSide.o -o MidSide$(DYN)
+	$(CC) $(LFLAGS) $(OBJC) MidSide.o -o MidSide$(DYN)
 MidSide.o: $(SRC)MidSide.cpp $(SRC)MidSide.h
-$(CC) $(CFLAGS) $(SRC)MidSide.cpp
+	$(CC) $(CFLAGS) $(SRC)MidSide.cpp
