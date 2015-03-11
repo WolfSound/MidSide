@@ -19,4 +19,4 @@ to get the shared object file of the **MidSide** plug-in.
 
 - - -
 
-Luca Sartore (drwolf85@gmail.com) - September 2014
+Luca Sartore - September 2014
