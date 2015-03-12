@@ -37,11 +37,18 @@ class wolfMidSide : public AudioEffectX
     float fParam2;
     float fParam3;
     float fParam4;
+    float fParam5;
+    float fParam6;
+    float fParam7;
+    
 
+    float panL, panR;
     float *buffer1, *buffer2;
-    int bufpos;
-    VstInt32 size;
+    float *bfHaasL, *bfHaasR;
+    int bufpos, hpos;
+    VstInt32 size, hsize;
     VstInt32 del3, del4;
+    VstInt32 hadL, hadR;
 };
 
 #endif
