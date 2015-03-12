@@ -5,7 +5,7 @@ MidSide is a MS Delay/Mixer VST plug-in
 
 - - -
 
-It can be use for widening effects of an input stereo signal.
+It can be use for widening effects of an input stereo signal. It is useful also for mono signals.
 
 VST source code is provided for making the plug-in working under DAW software running on both Windows and Linux.
 
