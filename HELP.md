@@ -1,9 +1,7 @@
 MidSide Help
 ============
 
-[TOC]
-
-## MidSide Controls
+MidSide Controls:
 
  * **Mid Volume**: adjust the volume of the mid audio-wave on the output signal;
  * **Side Volume**: adjust the volume of the side audio-wave on the output signal;
