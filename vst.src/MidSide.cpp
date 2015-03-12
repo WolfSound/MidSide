@@ -33,7 +33,7 @@ wolfMidSide::wolfMidSide(audioMasterCallback audioMaster) : AudioEffectX(audioMa
   fParam4 = (float) 0.0; //Side Delay (post)
   fParam5 = (float) 0.0; // Haas Left (pre)
   fParam6 = (float) 0.0; // Haas Right (pre)
-  fParam7 = (float) 0.0; // Pan (-1 L, +1 R) (pre)
+  fParam7 = (float) 0.5; // Pan (-1 L, +1 R) (pre)
 
   size = 262143;
   hsize = 16383;
